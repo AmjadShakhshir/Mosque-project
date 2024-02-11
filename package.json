@@ -1,0 +1,31 @@
+{
+  "name": "mosque",
+  "version": "1.0.0",
+  "description": "Mosque project",
+  "type": "module",
+  "main": "server/server.ts",
+  "scripts": {
+    "start": "npx tsx watch ./server/server.ts",
+    "dev": "nodemon server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmjadShakhshir/Mosque-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmjadShakhshir/Mosque-project/issues"
+  },
+  "homepage": "https://github.com/AmjadShakhshir/Mosque-project#readme",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
+  }
+}
