@@ -1,7 +1,7 @@
 # Mosque-project
 # User Stories for Mosque Alrabita
 
-1. [ ] Replace current sticky note system
+1. [ ] Add some animation to the elements in each page
 2. [ ] Add a public facing page with basic contact info 
 3. [ ] Add an employee login to the dashboard
 4. [ ] Provide a welcome page after login 
