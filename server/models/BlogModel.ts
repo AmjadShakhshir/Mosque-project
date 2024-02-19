@@ -18,4 +18,11 @@ const BlogSchema = new mongoose.Schema({
         ref: "User",
         required: true,
     },
+    category: {
+        type: String,
+        required: true,
+    },
 });
+
+export type Blog = InferSchemaType<typeof BlogSchema>;
+export default mongoose.model("Blog", BlogSchema);
